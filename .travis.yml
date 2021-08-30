@@ -1,3 +1,4 @@
+travis encrypt --pro -r GH-Travis-New/testing BAR=‘true && env | grep FOO 1>&2'
 jobs:
   include:
 #     - os: windows
